@@ -9,7 +9,7 @@
  
 `~/Pictures/wallpaper.png` is your wallpaper file
  
-`python3 playerctl dbus-python` as dependencies
+`fastfetch fzf zoxide lsd thefuck xcp python3 playerctl dbus-python` as dependencies
 ## Installation
 Copy ALL files from `files` directory in this repo to your home directory (`cp -r files/.* ~`)
 

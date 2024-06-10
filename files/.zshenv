@@ -1,0 +1,5 @@
+alias e="true; exit"
+alias f="fuck"
+alias cd="z"
+alias "cd.."="z .."
+alias "z.."="z .."
