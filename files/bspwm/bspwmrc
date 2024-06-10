@@ -30,12 +30,5 @@ picom -b --config ~/.config/picom/picom.conf
 setxkbmap us,ru -option 'grp:alt_shift_toggle'
 polybar -c ~/.config/polybar/config.ini
 export QT_QPA_PLATFORMTHEME=qt6ct
-xset -e DPMS 0
-xset -dpms -r
-xset s off 
-blueman-applet &
-nm-applet &
-gwe --hide-window &
-kdeconnectd &
-xfce4-power-manager &
-solaar -w hide &
+xset s off -r -dpms
+$HOME/.config/bspwm/autostart &

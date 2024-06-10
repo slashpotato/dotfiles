@@ -72,7 +72,7 @@ HIST_STAMPS="dd.mm.yyyy"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git vscode mercurial zsh-autosuggestions zsh-syntax-highlighting fast-syntax-highlighting zoxide adb zsh-lsd)
+plugins=(git mercurial zsh-autosuggestions fast-syntax-highlighting zoxide zsh-lsd)
 
 source $ZSH/oh-my-zsh.sh
 

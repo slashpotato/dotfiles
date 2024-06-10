@@ -1,0 +1,7 @@
+#!/bin/bash
+
+blueman-applet &
+nm-applet &
+kdeconnectd &
+xfce4-power-manager &
+solaar -w hide &
