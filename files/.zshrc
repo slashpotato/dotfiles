@@ -111,3 +111,5 @@ export FZF_DEFAULT_OPTS=" \
 --color=marker:#f5e0dc,fg+:#cdd6f4,prompt:#cba6f7,hl+:#f38ba8"
 
 eval "$(oh-my-posh init zsh --config /home/user/.config/catppuccin_mocha.omp.json)"
+
+source <(fzf --zsh)
