@@ -5,4 +5,5 @@ nm-applet &
 kdeconnectd &
 xfce4-power-manager &
 solaar -w hide &
-ollama start &
+nohup /bin/ollama serve &
+nohup /bin/ollama start &

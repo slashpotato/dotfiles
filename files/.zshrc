@@ -104,12 +104,11 @@ alias ohmyzsh="mate ~/.oh-my-zsh"
 
 eval "$(zoxide init zsh)"
 eval $(thefuck --alias)
+eval "$(oh-my-posh init zsh --config /home/user/omp.json)"
+source <(fzf --zsh)
+source "$HOME/.sdkman/bin/sdkman-init.sh"
 
 export FZF_DEFAULT_OPTS=" \
 --color=bg+:#313244,bg:#1e1e2e,spinner:#f5e0dc,hl:#f38ba8 \
 --color=fg:#cdd6f4,header:#f38ba8,info:#cba6f7,pointer:#f5e0dc \
 --color=marker:#f5e0dc,fg+:#cdd6f4,prompt:#cba6f7,hl+:#f38ba8"
-
-eval "$(oh-my-posh init zsh --config /home/user/.config/catppuccin_mocha.omp.json)"
-
-source <(fzf --zsh)

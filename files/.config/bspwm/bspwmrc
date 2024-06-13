@@ -21,14 +21,15 @@ bspc rule -a feh state=floating
 bspc rule -a Pavucontrol state=floating
 bspc rule -a Blueman-manager state=floating
 bspc rule -a kcalc state=floating
-
+#bspc rule -a kitty state=pseudo_tiled
+bspc rule -a adwaita-steam-gtk state=floating
 bspc config focused_border_color "#b4befe"
 bspc config normal_border_color "#313244"
 
-feh --bg-fill ~/Pictures/wallpaper.png
-picom -b --config ~/.config/picom/picom.conf
-setxkbmap us,ru -option 'grp:alt_shift_toggle'
-polybar -c ~/.config/polybar/config.ini
-export QT_QPA_PLATFORMTHEME=qt6ct
-xset s off -r -dpms
-$HOME/.config/bspwm/autostart &
+feh --bg-fill ~/Pictures/wallpaper.png &
+picom -b --config ~/.config/picom/picom.conf &
+setxkbmap us,ru -option 'grp:alt_shift_toggle' &
+polybar -c ~/.config/polybar/config.ini &
+export QT_QPA_PLATFORMTHEME=qt6ct &
+xset s off -r -dpms &
+sh /home/user/.config/bspwm/autostart &
