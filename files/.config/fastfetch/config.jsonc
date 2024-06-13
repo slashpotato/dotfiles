@@ -1,16 +1,22 @@
 {
     "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
     "logo": {
-        "type": "kitty",
+        "type": "small",
         "padding": {
             "top": 1,
             "left": 3,
             "right": 4
         },
-        "source": "$HOME/.ico.png"
+        "color": {
+            "1": "white"
+        }
     },
     "display": {
-        "separator": " "
+        "separator": "   ",
+        "color": "dim_blue"
+    },
+    "general": {
+        "multithreading": true
     },
     "modules": [
         {
@@ -23,42 +29,39 @@
         },
         {
             "type": "custom",
-            "format": "\u001b[90m──────────────"
+            "format": "\u001b[90m────────────"
         },
         {
             "type": "os",
-            "key": "\uebc6",
+            "key": "os  ",
             "format": "{2}"
         },
         {
-            "type": "uptime",
-            "key": "\udb81\udd1a"
-        },
-        /*{
-            "type": "host",
-            "key": "\uf423",
+            "type": "kernel",
+            "key": "ker ",
             "format": "{2}"
-        },*/
-        {
-            "type": "display",
-            "key": "\udb80\udf79",
-            "format": "{1}×{2} {3}hz"
         },
         {
-            "type": "cpu",
-            "key": "\uf4bc",
-            "temp": true,
-            "format": "{8} - {1}"
+            "type": "packages",
+            "key": "pkgs"
         },
         {
-            "type": "gpu",
-            "key": "\udb86\udcf4",
-            "temp": true,
-            "format": "{4} - {1} {2}"
+            "type": "shell",
+            "key": "sh  "
+        },
+        {
+            "type": "custom",
+            "key": "init",
+            "format": "runit"
+        },
+        {
+            "type": "wm",
+            "key": "wm  ",
+            "format": "{1}"
         },
         {
             "type": "memory",
-            "key": "",
+            "key": "ram ",
             "percent": {
                 "green": 30,
                 "yellow": 60
@@ -66,14 +69,26 @@
             "format": "{3} - {1}/{2}"
         },
         {
+            "type": "cpu",
+            "key": "cpu ",
+            "temp": true,
+            "format": "{8} - {1}"
+        },
+        {
+            "type": "gpu",
+            "key": "gpu ",
+            "temp": true,
+            "format": "{4} - {1} {2}"
+        },
+        /*{
             "type": "disk",
-            "key": "\uf0a0",
+            "key": "dsk",
             "percent": {
                 "green": 70,
                 "yellow": 90
             },
             "format": "{3} - {1}/{2}"
-        },
+        },*/
         "break",
         "colors"
     ]
