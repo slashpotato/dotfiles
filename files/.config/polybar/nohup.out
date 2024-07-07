@@ -1,0 +1,20 @@
+polybar|notice:  Parsing config file: /home/slashpotato/.config/polybar/config.ini
+polybar|notice:  Listening for IPC messages (PID: 16768)
+polybar|warn:  No monitor specified, using "DP-4"
+polybar|notice:  Loading module 'date' of type 'internal/date'
+polybar|notice:  Loading module 'xworkspaces' of type 'internal/xworkspaces'
+polybar|notice:  Loading module 'xwindow' of type 'internal/xwindow'
+polybar|notice:  Loading module 'xkeyboard' of type 'internal/xkeyboard'
+polybar|notice:  Loading module 'filesystem' of type 'internal/fs'
+polybar|notice:  Loading module 'pulseaudio' of type 'internal/pulseaudio'
+polybar|notice:  pulseaudio: using default sink alsa_output.pci-0000_2d_00.4.analog-stereo
+polybar|notice:  Loading module 'memory' of type 'internal/memory'
+polybar|notice:  Loading module 'systray' of type 'internal/tray'
+polybar|notice:  Loading module 'cpu' of type 'internal/cpu'
+polybar|notice:  Loaded 9 modules
+polybar|notice:  Loaded font "monospace" (name=DejaVu Sans Mono, offset=2, file=/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf)
+polybar|notice:  pulseaudio: using default sink alsa_output.pci-0000_2d_00.4.analog-stereo
+polybar|notice:  pulseaudio: using default sink alsa_output.pci-0000_2d_00.4.analog-stereo
+polybar|notice:  pulseaudio: using default sink alsa_output.pci-0000_2d_00.4.analog-stereo
+polybar|error: X connection error, terminating... (what: Socket, pipe or stream error)
+polybar|notice:  Termination signal received, shutting down...
