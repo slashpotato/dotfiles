@@ -8,4 +8,4 @@ if [ ! -d $HOME/.oh-my-zsh ]; then
 	cd $DOTFILESDIR
 fi
 
-stow . -t ~ --adopt
+stow . -t ~ --adopt --ignore=install.sh
