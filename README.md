@@ -18,4 +18,6 @@ cd dotfiles
 ./install.sh
 ```
 
+to update, run install.sh from cloned directory again. if theres update, it'll download it
+
 `startx` to start session from tty, or use your display manager
