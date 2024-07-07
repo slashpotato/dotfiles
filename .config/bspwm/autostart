@@ -7,3 +7,4 @@ xfce4-power-manager &
 solaar -w hide &
 nohup /bin/ollama serve &
 nohup /bin/ollama start &
+ollama serve &
