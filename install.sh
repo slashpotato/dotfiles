@@ -15,3 +15,6 @@ if [ ! -d $HOME/.oh-my-zsh ]; then
 fi
 
 stow . -t ~ --adopt --ignore=install.sh
+fast-theme XDG:catppuccin-mocha &> /dev/null
+bat cache --build &> /dev/null
+export BAT_THEME="Catppuccin Mocha"
