@@ -51,9 +51,8 @@
             "key": "sh  "
         },
         {
-            "type": "custom",
-            "key": "init",
-            "format": "runit"
+            "type": "initsystem",
+            "key": "init"
         },
         {
             "type": "wm",
