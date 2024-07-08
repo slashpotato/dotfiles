@@ -4,17 +4,14 @@
         "type": "kitty",
         "padding": {
             "top": 1,
-            "left": 3,
-            "right": 4
-        },
-        "color": {
-            "1": "white"
+            "left": 0,
+            "right": 2
         },
         "source": "~/fastfetch_logo.png"
     },
     "display": {
-        "separator": "   ",
-        "color": "dim_blue"
+        "separator": "  ",
+        "color": "inverse_white",
     },
     "general": {
         "multithreading": true
@@ -23,41 +20,48 @@
         {
             "type": "title",
             "color": {
-                "at": "dim_white",
-                "host": "red",
-                "user": "red"
+                "at": "dim_black",
+                "host": "bright_white",
+                "user": "bright_white"
             }
         },
         {
-            "type": "custom",
-            "format": "\u001b[90m────────────"
+            "type": "separator",
+            "outputColor": "dim_black",
+            "string": "─"
         },
         {
             "type": "os",
             "key": "os  ",
-            "format": "{2}"
+            "format": "{2}",
+            "outputColor": "dim_white"
         },
         {
             "type": "kernel",
             "key": "ker ",
-            "format": "{2}"
+            "format": "{2}",
+            "outputColor": "dim_white"
         },
         {
             "type": "packages",
-            "key": "pkgs"
+            "key": "pkgs",
+            "outputColor": "dim_white"
         },
         {
             "type": "shell",
-            "key": "sh  "
+            "key": "sh  ",
+            "outputColor": "dim_white"
         },
         {
             "type": "initsystem",
-            "key": "init"
+            "key": "init",
+            "outputColor": "dim_white"
         },
         {
             "type": "wm",
             "key": "wm  ",
-            "format": "{1}"
+            "format": "{1}",
+            "outputColor": "dim_white"
         },
         {
             "type": "memory",
@@ -66,30 +70,27 @@
                 "green": 30,
                 "yellow": 60
             },
-            "format": "{3} - {1}/{2}"
+            "format": "{3} - {1}/{2}",
+            "outputColor": "dim_white"
         },
         {
             "type": "cpu",
             "key": "cpu ",
             "temp": true,
-            "format": "{8} - {1}"
+            "format": "{8} - {1}",
+            "outputColor": "dim_white"
         },
         {
             "type": "gpu",
             "key": "gpu ",
             "temp": true,
-            "format": "{4} - {1} {2}"
+            "format": "{4} - {1} {2}",
+            "outputColor": "dim_white"
         },
-        /*{
-            "type": "disk",
-            "key": "dsk",
-            "percent": {
-                "green": 70,
-                "yellow": 90
-            },
-            "format": "{3} - {1}/{2}"
-        },*/
-        "break",
-        "colors"
+        {
+            "type": "colors",
+            "paddingLeft": 6,
+            "symbol": "circle"
+        }
     ]
 }

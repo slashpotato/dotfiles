@@ -23,6 +23,9 @@ bspc rule -a Blueman-manager state=floating
 bspc rule -a kcalc state=floating
 #bspc rule -a kitty state=pseudo_tiled
 bspc rule -a adwaita-steam-gtk state=floating
+bspc rule -a zenity state=pseudo_tiled
+bspc rule -a msnmsgr.exe state=floating 
+
 bspc config focused_border_color "#b4befe"
 bspc config normal_border_color "#313244"
 

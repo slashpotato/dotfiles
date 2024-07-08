@@ -105,6 +105,7 @@ alias ohmyzsh="mate ~/.oh-my-zsh"
 eval "$(zoxide init zsh)"
 eval $(thefuck --alias)
 eval "$(oh-my-posh init zsh --config /home/user/omp.json)"
+eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 source <(fzf --zsh)
 source "$HOME/.sdkman/bin/sdkman-init.sh"
 
@@ -116,3 +117,4 @@ export FZF_DEFAULT_OPTS=" \
 export BAT_THEME="Catppuccin Mocha"
 
 setxkbmap us,ru -option 'grp:alt_shift_toggle'
+

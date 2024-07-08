@@ -20,7 +20,7 @@
         {
           "foreground": "p:pink",
           "properties": {
-            "folder_icon": "\uf115 ",
+            "folder_icon": "\uf115",
             "home_icon": "~",
             "style": "agnoster_short"
           },
