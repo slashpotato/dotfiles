@@ -116,5 +116,4 @@ export FZF_DEFAULT_OPTS=" \
 
 export BAT_THEME="Catppuccin Mocha"
 
-setxkbmap us,ru -option 'grp:alt_shift_toggle'
 

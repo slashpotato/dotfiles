@@ -20,6 +20,8 @@ super + z
 #
 # system
 #
+super + n
+	setxkbmap us,ru -option 'grp:alt_shift_toggle'
 
 super + m
 	polybar-msg cmd restart
