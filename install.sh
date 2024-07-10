@@ -30,7 +30,7 @@ sherrl () {
     echo -e "${CUP}${ERR} $*"
 }
 shpause () {
-    read -n1 -r -p "Press any key to continue..." key
+    read -n1 -r -p "ⓘ Press any key to continue..." key
 }
 
 # update git
