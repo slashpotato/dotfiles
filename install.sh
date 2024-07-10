@@ -24,6 +24,11 @@ if [ ! -d $HOME/.sdkman ]; then
 	cd $DOTFILESDIR
 fi
 
+# install homebrew if doesnt exist
+if [ ! -d /home/linuxbrew ]; then
+	/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+fi
+
 # setup
 stow . -t ~ --adopt --ignore=install.sh
 bat cache --build &> /dev/null
