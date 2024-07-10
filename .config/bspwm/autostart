@@ -9,3 +9,4 @@ nohup /bin/ollama serve &
 nohup /bin/ollama start &
 ollama serve &
 viper start &
+killall glava &
