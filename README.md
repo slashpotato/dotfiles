@@ -6,10 +6,15 @@
 - `feh` for wallpaper
 - `polybar` for bar
 - `picom` as compositor
- 
+- `kitty` as terminal 
+
 `~/Pictures/wallpaper.png` is your wallpaper file
  
-`stow oh-my-posh fastfetch fzf zoxide lsd thefuck xcp python3 playerctl dbus-python` as dependencies
+`kitty sxhkd bspwm feh polybar picom stow bat oh-my-posh fastfetch fzf zoxide thefuck python3 playerctl dbus-python` as dependencies
+
+sdkman, brew, oh-my-zsh will be installed if not found in your system by running install script.
+
+! it wont install packages !
 ## Installation
 ```
 cd ~
