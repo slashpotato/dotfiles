@@ -87,6 +87,7 @@
             "format": "{4} - {1} {2}",
             "outputColor": "dim_white"
         },
+	"break",
         {
             "type": "colors",
             "paddingLeft": 6,
