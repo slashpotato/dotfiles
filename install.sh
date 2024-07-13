@@ -75,7 +75,7 @@ if [ ! -d /home/linuxbrew ]; then
 fi
 
 # setup
-stow . -t ~ --adopt --ignore=install.sh &> /dev/null && shscs "Successfully created stow symlinks" || sherr "Error creating stow symlinks"
+stow . -t ~ --adopt --dotfiles --ignore=install.sh &> /dev/null && shscs "Successfully created stow symlinks" || sherr "Error creating stow symlinks"
 bat cache --build &> /dev/null && shscs "Successfully built bat cache" || sherr "Error building bat cache"
 export BAT_THEME="Catppuccin Mocha"
 source "$HOME/.sdkman/bin/sdkman-init.sh"
