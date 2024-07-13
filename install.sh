@@ -51,7 +51,7 @@ fi
 
 # install omz if doesnt exist
 if [ ! -d $HOME/.oh-my-zsh ]; then
-    shwrn "Oh My ZSH not found, installing...\nPlease agree setting zsh as default shell"
+    shwrn "Oh My ZSH not found, installing...\nPlease agree setting zsh as default shell.\After installation it sends you to shell, type \"exit\" to contue installation of dotfiles."
     shpause
     cd $HOME
     sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
