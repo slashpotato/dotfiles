@@ -10,7 +10,7 @@
 
 `~/Pictures/wallpaper.png` is your wallpaper file
  
-`kitty sxhkd bspwm feh polybar picom stow bat oh-my-posh fastfetch fzf zoxide thefuck python3 playerctl dbus-python` as dependencies
+`unzip rofi kitty sxhkd bspwm feh polybar picom stow bat oh-my-posh fastfetch fzf zoxide thefuck python3 playerctl dbus-python` as dependencies
 
 sdkman, brew, oh-my-zsh will be installed if not found in your system by running install script.
 
