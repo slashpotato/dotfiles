@@ -17,7 +17,6 @@
         "multithreading": true
     },
     "modules": [
-	"break",
         {
             "type": "title",
             "color": {

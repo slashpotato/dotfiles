@@ -3,10 +3,6 @@
 blueman-applet &
 nm-applet &
 kdeconnectd &
-xfce4-power-manager &
 solaar -w hide &
-nohup /bin/ollama serve &
-nohup /bin/ollama start &
-ollama serve &
-viper start &
-killall glava &
+xfce4-power-manager &
+xfce4-power-manager &
