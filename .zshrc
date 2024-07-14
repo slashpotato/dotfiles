@@ -104,8 +104,8 @@ alias ohmyzsh="mate ~/.oh-my-zsh"
 
 eval "$(zoxide init zsh)"
 eval $(thefuck --alias)
-eval "$(oh-my-posh init zsh --config /home/user/omp.json)"
 eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
+eval "$(oh-my-posh init zsh --config /home/user/omp.json)"
 source <(fzf --zsh)
 source "$HOME/.sdkman/bin/sdkman-init.sh"
 
