@@ -118,3 +118,4 @@ export BAT_THEME="Catppuccin Mocha"
 
 setxkbmap us,ru -option 'grp:caps_toggle'
 setxkbmap us,ru -option 'grp:alt_shift_toggle'
+
