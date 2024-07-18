@@ -120,3 +120,6 @@ setxkbmap us,ru -option 'grp:caps_toggle'
 setxkbmap us,ru -option 'grp:alt_shift_toggle'
 
 export PATH=$PATH:/opt/vscode/bin
+
+# Created by `pipx` on 2024-07-18 11:41:25
+export PATH="$PATH:/home/user/.local/bin"
