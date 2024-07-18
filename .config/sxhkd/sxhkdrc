@@ -28,6 +28,7 @@ super + m
 
 super + p
 	pavucontrol-qt
+	#DISPLAY=:0 doas -u user flatpak run com.saivert.pwvucontrol 
 
 super + o
 	blueman-manager

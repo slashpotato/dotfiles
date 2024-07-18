@@ -72,7 +72,7 @@ HIST_STAMPS="dd.mm.yyyy"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git mercurial zsh-autosuggestions fast-syntax-highlighting zoxide zsh-lsd)
+plugins=(git mercurial yarn node zsh-autosuggestions fast-syntax-highlighting zoxide zsh-lsd)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -119,3 +119,4 @@ export BAT_THEME="Catppuccin Mocha"
 setxkbmap us,ru -option 'grp:caps_toggle'
 setxkbmap us,ru -option 'grp:alt_shift_toggle'
 
+export PATH=$PATH:/opt/vscode/bin
