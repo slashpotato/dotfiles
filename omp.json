@@ -51,17 +51,6 @@
       "newline": true
     },
     {
-      "alignment": "right",
-      "segments": [
-        {
-          "style": "plain",
-          "foreground": "p:blue",
-          "type": "time"
-        }
-      ],
-      "type": "prompt"
-    },
-    {
       "alignment": "left",
       "segments": [
         {
@@ -71,8 +60,7 @@
           "type": "text"
         }
       ],
-      "type": "prompt",
-      "newline": true
+      "type": "prompt"
     }
   ],
   "transient_prompt": {
