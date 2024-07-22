@@ -1,7 +1,7 @@
-# slashpotato's bspwm dotfiles
+# slashpotato's bspwm/herbsluftwm dotfiles
 
 ### What you'll need
-- `bspwm`
+- `bspwm` or/and `herbsluftwm`
 - `sxhkd` for hotkeys
 - `feh` for wallpaper
 - `polybar` for bar
@@ -10,7 +10,7 @@
 
 `~/Pictures/wallpaper.png` is your wallpaper file
  
-`unzip rofi kitty sxhkd bspwm feh polybar picom stow bat oh-my-posh fastfetch fzf zoxide thefuck python3 playerctl dbus-python` as dependencies
+`unzip rofi kitty sxhkd bspwm/herbslutwm feh polybar picom stow bat oh-my-posh fastfetch fzf zoxide thefuck python3 playerctl dbus-python` as dependencies
 
 sdkman, brew, oh-my-zsh will be installed if not found in your system by running install script.
 
@@ -25,4 +25,4 @@ cd dotfiles
 
 to update, run install.sh from cloned directory again. if theres update, it'll download it
 
-`startx` to start session from tty, or use your display manager
+P.S. `startx` is configured to run `compiz`, edit it to run `bspwm` or `herbsluftwm` if you dont have session manager

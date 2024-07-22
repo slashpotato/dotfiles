@@ -30,7 +30,7 @@ sherrl () {
     echo -e "${CUP}${ERR} $*"
 }
 shpause () {
-    read -n1 -r -p "ⓘ Press any key to continue..." key
+    read -n1 -r -p "󰋽 Press any key to continue..." key
 }
 
 # update git
@@ -79,3 +79,5 @@ stow . -t ~ --adopt --dotfiles --ignore=install.sh &> /dev/null && shscs "Succes
 bat cache --build &> /dev/null && shscs "Successfully built bat cache" || sherr "Error building bat cache"
 export BAT_THEME="Catppuccin Mocha"
 source "$HOME/.sdkman/bin/sdkman-init.sh"
+
+echo -e "󰋽 Please read README.md"
