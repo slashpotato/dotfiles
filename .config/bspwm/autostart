@@ -2,7 +2,11 @@
 
 blueman-applet &
 nm-applet &
+dhcpcd-qt &
 kdeconnectd &
 solaar -w hide &
 xfce4-power-manager &
 xfce4-power-manager &
+viper-gui &
+killall glava &
+gwe --hide-window &
