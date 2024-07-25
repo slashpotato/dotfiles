@@ -37,4 +37,4 @@ setxkbmap us,ru -option 'grp:alt_shift_toggle' &
 polybar -c ~/.config/polybar/config.ini &
 export QT_QPA_PLATFORMTHEME=qt6ct &
 xset s off -r -dpms &
-sh /home/user/.config/bspwm/autostart &
+sh $HOME/.config/.autostart &

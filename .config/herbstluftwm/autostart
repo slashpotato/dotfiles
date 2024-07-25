@@ -52,7 +52,7 @@ hc keybind $Mod-o       split   right   0.5
 hc keybind $Mod-Control-space split explode
 
 # resizing frames and floating clients
-resizestep=0.02
+resizestep=0.001
 hc keybind $Mod-Control-h       resize left +$resizestep
 hc keybind $Mod-Control-j       resize down +$resizestep
 hc keybind $Mod-Control-k       resize up +$resizestep
@@ -117,8 +117,8 @@ hc attr theme.tiling.reset 1
 hc attr theme.floating.reset 1
 hc set frame_border_active_color '#22222200'
 hc set frame_border_normal_color '#31324400'
-hc set frame_bg_normal_color '#565656aa'
-hc set frame_bg_active_color '#345F0Caa'
+hc set frame_bg_normal_color '#1e1e2eff'
+hc set frame_bg_active_color '#1e1e2eff'
 hc set frame_border_width 0
 hc set show_frame_decorations 'focused_if_multiple'
 hc set frame_bg_transparent on
@@ -202,4 +202,4 @@ setxkbmap us,ru -option 'grp:caps_toggle' &
 polybar -c ~/.config/polybar/config.ini &
 export QT_QPA_PLATFORMTHEME=qt6ct &
 xset s off -r -dpms &
-sh /home/user/.config/bspwm/autostart &
+sh $HOME/.config/.autostart &

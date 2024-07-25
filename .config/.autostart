@@ -7,6 +7,6 @@ kdeconnectd &
 solaar -w hide &
 xfce4-power-manager &
 xfce4-power-manager &
-viper-gui &
-killall glava &
+viper-gui -i &
 gwe --hide-window &
+sleep 5; killall glava &

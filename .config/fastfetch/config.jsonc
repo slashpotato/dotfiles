@@ -33,7 +33,7 @@
         {
             "type": "os",
             "key": "os  ",
-            "format": "{2}",
+            "format": "{3}",
             "outputColor": "dim_white"
         },
         {
