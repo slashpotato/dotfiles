@@ -1,12 +1,13 @@
 #!/bin/bash
 
+bat cache --build &
 blueman-applet &
 nm-applet &
 dhcpcd-qt &
-kdeconnectd &
+kdeconnectd & kdeconnect-indicator &
 solaar -w hide &
 xfce4-power-manager &
 xfce4-power-manager &
-viper-gui -i &
+#viper-gui -i &
 gwe --hide-window &
 sleep 5; killall glava &

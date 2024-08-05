@@ -81,7 +81,7 @@ source $ZSH/oh-my-zsh.sh
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment
-# export LANG=en_US.UTF-8
+export LANG=ru_RU.UTF-8
 
 # Preferred editor for local and remote sessions
 #if [[ -n $SSH_CONNECTION ]]; then
@@ -127,3 +127,7 @@ export PATH="$PATH:/home/user/.local/bin"
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+export OLLAMA_HOST=192.168.1.150:11434
+export OLLAMA_MODELS=/run/media/user/Games/Work/Viktor/ollama
+export OLLAMA_LLM_LIBRARY="cuda_v11"
